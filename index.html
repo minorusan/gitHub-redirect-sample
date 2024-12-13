@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanks for participating! You will now be redirected</title>
+    <title>Happiness</title>
+    <style>
+        body {
+            background-color: #0F5D81;
+            color: #EFD15C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Redirecting...</h1>
+    <h1>Thanks for participating in our research</h1>
     <script>
         // Get the current URL
         const currentUrl = window.location.href;
@@ -17,7 +33,7 @@
         // Log the new URL for debugging purposes
         console.log('Redirecting to:', newUrl);
 
-        // Prompt the user to open the new URL
+        // Redirect to the new URL
         window.location.href = newUrl;
     </script>
 </body>
