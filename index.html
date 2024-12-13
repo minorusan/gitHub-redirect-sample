@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for participating! You will now be redirected</title>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <script>
+        // Get the current URL
+        const currentUrl = window.location.href;
+
+        // Replace "github" with "my-urlscheme"
+        const newUrl = currentUrl.replace('github', 'happinessquest://');
+
+        // Log the new URL for debugging purposes
+        console.log('Redirecting to:', newUrl);
+
+        // Prompt the user to open the new URL
+        window.location.href = newUrl;
+    </script>
+</body>
+</html>
