@@ -24,13 +24,10 @@
 <body>
     <h1>Thanks for participating in our research</h1>
     <script>
-        // Get the current URL
         const currentUrl = window.location.href;
 
-        // Replace "github" with "my-urlscheme"
+        console.log('Current url:', currentUrl);
         const newUrl = currentUrl.replace('https://minorusan.github.io/gitHub-redirect-sample?', 'happinessquest://set-custom-experiment.php?');
-
-        // Log the new URL for debugging purposes
         console.log('Redirecting to:', newUrl);
 
         // Redirect to the new URL
